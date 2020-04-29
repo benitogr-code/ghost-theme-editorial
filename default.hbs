@@ -26,6 +26,9 @@
 
                 {{!-- Header --}}
                 <header id="header">
+                    {{#if @site.logo}}
+                        <a href="{{@site.url}}" class="logo image"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
+                    {{/if}}
                     {{#if @site.secondary_navigation}}
                         {{navigation type="secondary"}}
                     {{/if}}
