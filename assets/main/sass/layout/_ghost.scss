@@ -30,7 +30,7 @@
     }
 
     #sidebar:not(.inactive) .toggle:after {
-        background: #f56a6a;
+        background: #0066ff;
     }
 }
 
@@ -40,7 +40,7 @@
 
 
 .content {
-    max-width: 700px;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@
 
 .post-footer {
     margin: 4rem auto 0;
-    max-width: 700px;
+    max-width: 85%;
 }
 
 .authors {
@@ -352,7 +352,7 @@
 }
 
 .kg-bookmark-container:hover .kg-bookmark-title {
-    color: #f56a6a;
+    color: #0066ff;
 }
 
 .kg-bookmark-description {
