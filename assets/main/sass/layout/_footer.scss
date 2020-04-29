@@ -7,6 +7,8 @@
 /* Footer */
 
 	#footer {
+		position: absolute;
+		bottom: 5px;
 		.copyright {
 			color: _palette(fg-light);
 			font-size: 0.9em;
